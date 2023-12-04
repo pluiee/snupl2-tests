@@ -1,4 +1,5 @@
 // test07: factorial and combinatorics
+
 module test07;
 
 var fac: integer[20];
