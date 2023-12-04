@@ -6,7 +6,7 @@ const N: integer = 2;
 var A, B, C: integer[N][N];
 
 procedure matinit(m: integer[][], i: integer);
-var x, y, v;
+var x, y, v: integer;
 begin
     v := 1;
     while (y < N) do
