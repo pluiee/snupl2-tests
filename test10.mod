@@ -33,7 +33,7 @@ begin
     j := N - 1;
     while(j > 0) do
         i := 0;
-        while(i < j - 1) do
+        while(i < j) do
             if(a[i] > a[i+1]) then 
                 tmp := a[i];
                 a[i] := a[i+1];
