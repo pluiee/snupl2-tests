@@ -6,7 +6,7 @@ const p: integer = 1000000007;
 var N, K: integer;
     a, b: longint;
 
-function fac(n: integer, i: integer, ret: longint): longint;
+function fac(n: integer; i: integer; ret: longint): longint;
 begin
     if(n = i) then return ret
     else
