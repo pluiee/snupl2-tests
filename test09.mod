@@ -26,7 +26,7 @@ begin
     else
         x := power(n, k/2);
         x := mod(x * x, p);
-        if(k % 2 = 1) then return mod(x * n, p)
+        if(mod(k, 2) = 1) then return mod(x * n, p)
         else return x end
     end
 end power;
