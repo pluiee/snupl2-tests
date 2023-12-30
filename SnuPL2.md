@@ -1,7 +1,5 @@
 # SnuPL/2 Language Specification
 
-[[_TOC_]]
-
 ## EBNF
     module            = "module" ident ";"
                         { constDeclaration | varDeclaration | subroutineDecl }
